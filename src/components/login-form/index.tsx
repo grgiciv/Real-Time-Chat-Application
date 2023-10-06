@@ -16,7 +16,7 @@ export default function LoginForm() {
     <form onSubmit={form.onSubmit((values) => console.log(values))}>
       <Stack>
         <Stack gap={5} align="stretch">
-          <Text c="#990011" size="30px">
+          <Text ta="center" c="#990011" size="30px">
             Username:
           </Text>
           <TextInput
@@ -26,7 +26,7 @@ export default function LoginForm() {
           />
         </Stack>
         <Stack gap={5} align="stretch">
-          <Text c="#990011" size="30px">
+          <Text ta="center" c="#990011" size="30px">
             Password:
           </Text>
           <PasswordInput
